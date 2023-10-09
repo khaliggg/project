@@ -10,6 +10,11 @@ a:hover {
   color: black;
 }
 
+.imgbox img {
+  width: 100%;
+  height: 100%;
+}
+
 header {
   padding: 16px 0;
   background-color: #212529;
@@ -85,11 +90,11 @@ header nav a:hover {
   margin: 0px 0px 16px;
   padding: 96px 0px 0px;
 }
-#services .first p {
+#services .first h3 {
   font-size: 18px;
   color: #6c757d;
-  padding-bottom: 50px;
-  font-weight: 700;
+  margin-bottom: 64px;
+  font-weight: 400;
 }
 #services .imgbox .icon i {
   margin-left: 148px;
@@ -114,4 +119,21 @@ header nav a:hover {
   line-height: 1.75;
   font-size: 18px;
   margin-bottom: 16px;
+}
+
+#portfolio {
+  padding: 96px 0px;
+  background-color: #f8f9fa;
+}
+#portfolio .first h1 {
+  color: #212529;
+  font-size: 40px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+#portfolio .first h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #6c757d;
+  margin-bottom: 64px;
 }/*# sourceMappingURL=style.css.map */
