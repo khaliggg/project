@@ -1,0 +1,117 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: orange;
+}
+a:hover {
+  color: black;
+}
+
+header {
+  padding: 16px 0;
+  background-color: #212529;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+header .imgbox {
+  width: 140px;
+  padding-left: -50px;
+}
+header .imgbox img {
+  cursor: pointer;
+}
+header nav a {
+  padding: 15px;
+  font-size: 18px;
+  color: #ffffff;
+  transition: 0.15s;
+  cursor: pointer;
+}
+header nav a:hover {
+  color: #ffc800;
+}
+
+#welcome {
+  background-image: url("Assets/background1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+#welcome .box {
+  height: 700px;
+}
+#welcome .box h1 {
+  font-size: 75px;
+  font-weight: 700;
+  margin: 0px 0px 40px;
+}
+#welcome .box h2 {
+  font-size: 40px;
+  margin: 67px 0px 40px;
+}
+#welcome .box .btn h3 {
+  padding: 19px 55px;
+  border: 1px solid #ffc800;
+  background-color: #ffc800;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+#welcome .box .btn h3:hover {
+  background-color: #d9aa00;
+}
+#welcome .box h1, #welcome .box h2, #welcome .box h3 {
+  color: #ffffff;
+}
+
+#services {
+  padding-bottom: 96px;
+}
+#services .first h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0px 0px 16px;
+  padding: 96px 0px 0px;
+}
+#services .first p {
+  font-size: 18px;
+  color: #6c757d;
+  padding-bottom: 50px;
+  font-weight: 700;
+}
+#services .imgbox .icon i {
+  margin-left: 148px;
+  font-size: 60px;
+  width: 125px;
+  height: 125px;
+  border: 1px solid #ffc800;
+  background-color: #ffc800;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+#services .textbox h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 16px 0px;
+}
+#services .textbox p {
+  color: #6c757d;
+  line-height: 1.75;
+  font-size: 18px;
+  margin-bottom: 16px;
+}/*# sourceMappingURL=style.css.map */
