@@ -150,4 +150,38 @@ header nav a:hover {
 #portfolio .second h3 {
   color: #6c757d;
   font-size: 18px;
+}
+
+#about {
+  padding: 96px 0px;
+}
+#about .first h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  color: #212529;
+}
+#about .first h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 64px;
+  color: #6c757d;
+}
+#about .textbox h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 8px;
+}
+#about .textbox p {
+  color: #6c757d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75;
+}
+#about .imgbox img {
+  border-radius: 100%;
+  width: 170px;
+  border: 7px solid #e9ecef;
+  margin-left: 25px;
 }/*# sourceMappingURL=style.css.map */
