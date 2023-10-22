@@ -167,21 +167,87 @@ header nav a:hover {
   margin-bottom: 64px;
   color: #6c757d;
 }
-#about .textbox h2 {
+#about .second h2, #about .third h2 {
   font-size: 24px;
   font-weight: 700;
   color: #212529;
   margin-bottom: 8px;
 }
-#about .textbox p {
+#about .second p, #about .third p {
   color: #6c757d;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.75;
 }
-#about .imgbox img {
+#about .second {
+  width: 380px;
+  margin-left: 136px;
+}
+#about img {
+  margin: 0px 0px 150px -95px;
   border-radius: 100%;
   width: 170px;
   border: 7px solid #e9ecef;
-  margin-left: 25px;
+}
+#about .third {
+  width: 380px;
+}
+
+#team {
+  padding: 96px 0px;
+  background-color: #f8f9fa;
+}
+#team .first h1 {
+  color: #212529;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+#team .first h3 {
+  color: #6c757d;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 64px;
+}
+#team img {
+  border-radius: 100%;
+  border: 8px solid #dfe0e1;
+  width: 224px;
+}
+#team .second h2 {
+  color: #212529;
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 24px;
+}
+#team .second h4 {
+  color: #6c757d;
+  margin: 16px 0px 16px;
+  font-weight: 400;
+  font-size: 18px;
+}
+#team .minibox .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team .minibox .icon:hover {
+  cursor: pointer;
+  background-color: #424649;
+  transition: 0.15s;
+}
+#team .minibox .icon i {
+  color: white;
+  cursor: pointer;
+}
+#team .third {
+  width: 803px;
+  font-size: 19px;
+  color: #6c757d;
+  margin: 48px 240px 16px;
+  line-height: 1.75;
 }/*# sourceMappingURL=style.css.map */
