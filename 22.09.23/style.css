@@ -261,4 +261,33 @@ header nav a:hover {
 }
 #company img:hover {
   cursor: pointer;
+}
+
+#contact {
+  background-image: url("Assets/map-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #212529;
+  height: 750px;
+  padding: 100px 0px 100px;
+}
+#contact .textbox h1 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#contact .textbox h3 {
+  font-size: 18px;
+  color: #6c757d;
+  font-weight: 400;
+  margin-bottom: 64px;
+}
+#contact .add input {
+  width: 100%;
+  padding: 20px;
+}
+#contact .add placeholder {
+  font-size: 18px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
