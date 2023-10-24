@@ -286,8 +286,7 @@ header nav a:hover {
 #contact .add input {
   width: 100%;
   padding: 20px;
-}
-#contact .add placeholder {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
+  color: #ced4da;
 }/*# sourceMappingURL=style.css.map */
