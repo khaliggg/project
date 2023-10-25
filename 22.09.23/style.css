@@ -44,10 +44,16 @@ header nav a {
 header nav a:hover {
   color: #ffc800;
 }
+@media (min-width: 1200px) {
+  header .menu {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 
 #welcome {
   background-image: url("Assets/background1.jpg");
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
@@ -79,6 +85,11 @@ header nav a:hover {
 }
 #welcome .box h1, #welcome .box h2, #welcome .box h3 {
   color: #ffffff;
+}
+@media (max-width: 992px) {
+  #welcome {
+    max-width: 960px;
+  }
 }
 
 #services {
@@ -288,5 +299,4 @@ header nav a:hover {
   padding: 20px;
   font-size: 18px;
   font-weight: 700;
-  color: #ced4da;
 }/*# sourceMappingURL=style.css.map */
