@@ -56,7 +56,6 @@ header nav a:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
 }
 #welcome .box {
   height: 700px;
@@ -86,12 +85,6 @@ header nav a:hover {
 #welcome .box h1, #welcome .box h2, #welcome .box h3 {
   color: #ffffff;
 }
-@media (max-width: 992px) {
-  #welcome {
-    max-width: 960px;
-  }
-}
-
 #services {
   padding-bottom: 96px;
 }
@@ -108,7 +101,7 @@ header nav a:hover {
   font-weight: 400;
 }
 #services .imgbox .icon i {
-  margin-left: 148px;
+  margin-left: 82px;
   font-size: 60px;
   width: 125px;
   height: 125px;
