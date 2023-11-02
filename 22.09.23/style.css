@@ -101,7 +101,6 @@ header nav a:hover {
   font-weight: 400;
 }
 #services .imgbox .icon i {
-  margin-left: 82px;
   font-size: 60px;
   width: 125px;
   height: 125px;
@@ -155,6 +154,40 @@ header nav a:hover {
   color: #6c757d;
   font-size: 18px;
 }
+#portfolio .imgbox {
+  position: relative;
+}
+#portfolio .imgbox:hover {
+  opacity: 0.9;
+}
+#portfolio .imgbox:hover .icon {
+  opacity: 1;
+}
+#portfolio .imgbox .icon {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  opacity: 0;
+  color: #ffffff;
+}
+#portfolio .imgbox .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.3s;
+  background-color: #fcb700;
+}
+#portfolio .imgbox .overlay:hover {
+  opacity: 0.9;
+}
+#portfolio .imgbox .overlay, #portfolio .imgbox .icon, #portfolio .imgbox i {
+  cursor: pointer;
+}
 
 #about {
   padding: 96px 0px;
@@ -185,16 +218,17 @@ header nav a:hover {
 }
 #about .second {
   width: 380px;
-  margin-left: 136px;
 }
 #about img {
-  margin: 0px 0px 150px -95px;
   border-radius: 100%;
   width: 170px;
   border: 7px solid #e9ecef;
 }
 #about .third {
   width: 380px;
+}
+#about p {
+  width: 400px;
 }
 
 #team {
@@ -249,11 +283,13 @@ header nav a:hover {
   cursor: pointer;
 }
 #team .third {
-  width: 803px;
   font-size: 19px;
   color: #6c757d;
-  margin: 48px 240px 16px;
   line-height: 1.75;
+  width: 770px;
+}
+#team .box {
+  padding-bottom: 48px;
 }
 
 #company {
