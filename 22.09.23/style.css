@@ -224,10 +224,7 @@ header nav a:hover {
   width: 170px;
   border: 7px solid #e9ecef;
 }
-#about .third {
-  width: 380px;
-}
-#about p {
+#about .second {
   width: 400px;
 }
 
@@ -328,4 +325,5 @@ header nav a:hover {
   padding: 20px;
   font-size: 18px;
   font-weight: 700;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
