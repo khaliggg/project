@@ -44,7 +44,7 @@ header nav a {
 header nav a:hover {
   color: #ffc800;
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   header .menu {
     display: flex;
     justify-content: space-around;
@@ -85,6 +85,7 @@ header nav a:hover {
 #welcome .box h1, #welcome .box h2, #welcome .box h3 {
   color: #ffffff;
 }
+
 #services {
   padding-bottom: 96px;
 }
@@ -305,7 +306,7 @@ header nav a:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #212529;
-  height: 700px;
+  height: 100%;
   padding: 100px 0px 100px;
 }
 #contact .textbox h1 {
@@ -328,6 +329,7 @@ header nav a:hover {
   margin-bottom: 20px;
 }
 #contact textarea {
+  width: 100%;
   font-size: 18px;
   font-weight: 700;
   padding: 20px;
@@ -343,4 +345,42 @@ header nav a:hover {
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
+}
+
+footer {
+  padding: 14px 0px 14px;
+}
+footer h2 {
+  font-size: 17px;
+  cursor: auto;
+}
+footer .icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: #212529;
+  margin: 0px 8px 0px;
+  border: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+footer .icon:hover {
+  background-color: #424649;
+}
+footer .icon i {
+  color: #ffffff;
+  cursor: pointer;
+}
+footer h3, footer h4 {
+  font-size: 17px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+@media (max-width: 992px) {
+  footer .col-md-8 {
+    display: flex;
+    justify-content: end;
+  }
 }/*# sourceMappingURL=style.css.map */
