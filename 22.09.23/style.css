@@ -205,13 +205,13 @@ header nav a:hover {
   margin-bottom: 64px;
   color: #6c757d;
 }
-#about .second h2, #about .third h2 {
+#about h2 {
   font-size: 24px;
   font-weight: 700;
   color: #212529;
   margin-bottom: 8px;
 }
-#about .second p, #about .third p {
+#about p {
   color: #6c757d;
   font-size: 18px;
   font-weight: 400;
